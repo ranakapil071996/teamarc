@@ -2,7 +2,7 @@ import { SET_FAVOURITES, SEARCH_DATA, ADD_TO_FAVOURITE, REMOVE_TO_FAVOURITE, TOG
 import Axios from "axios";
 
 const apikey = "2bc748be";
-const baseUrl = "http://www.omdbapi.com/"
+const baseUrl = "https://www.omdbapi.com/"
 
 export const setFavourites = (fav) => async dispatch => {
     dispatch({
